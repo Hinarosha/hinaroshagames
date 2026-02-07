@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furosha's Games</title>
+    <title>Hinarosha's Games</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
@@ -13,7 +13,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
             <div class="container">
-                <a class="navbar-brand" href="index.php">Furosha's Games</a>
+                <a class="navbar-brand" href="index.php">Hinarosha's Games</a>
                 <div class="ms-auto">
                     <button v-if="!isLoggedIn" @click="showLoginModal" class="btn btn-outline-light me-2">Sign In</button>
                     <button v-if="!isLoggedIn" @click="showRegisterModal" class="btn btn-primary">Sign Up</button>
@@ -181,7 +181,7 @@
         <footer class="bg-dark text-light mt-5 border-top">
             <div class="bg-darker py-3">
                 <div class="container text-center text-muted">
-                    <small>&copy; 2025 Furosha's Games. All rights reserved.</small>
+                    <small>&copy; 2025 Hinarosha's Games. All rights reserved.</small>
                 </div>
             </div>
         </footer>

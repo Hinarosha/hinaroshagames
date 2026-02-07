@@ -1,6 +1,6 @@
 -- Création de la base de données
-CREATE DATABASE IF NOT EXISTS furoshagames;
-USE furoshagames;
+CREATE DATABASE IF NOT EXISTS hinaroshagames;
+USE hinaroshagames;
 
 -- Table des utilisateurs
 CREATE TABLE users (

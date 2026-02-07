@@ -18,7 +18,7 @@
     <!-- Updated navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
         <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand" href="../../index.php">Furosha's Games</a>
+            <a class="navbar-brand" href="../../index.php">H's Games</a>
             <div class="mx-auto">
                 <h5 class="mb-0 neon-text">Cyberpunk Awakening</h5>
             </div>
