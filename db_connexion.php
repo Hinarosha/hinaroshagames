@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 
 // Get absolute path to .env file
-$envPath = __DIR__ . '/assets/.env';
+$envPath = __DIR__ . '/.env';
 
 try {
     if (!file_exists($envPath)) {

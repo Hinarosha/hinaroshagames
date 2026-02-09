@@ -29,6 +29,8 @@ furoshagames/
 │   └── rpg/
 ├── db_connexion.php       # Database connection
 ├── index.php              # Main portal page
+├── .env                   # Environment variables
+├── .env.exemple           # Environment variables example
 └── README.md
 ```
 
@@ -37,7 +39,7 @@ furoshagames/
 1.  **Clone the repository** (or extract the project files).
 2.  **Configure the Database**:
     - Import `assets/bdd.exemple.sql` into your MySQL server to create the `hinaroshagames` database and necessary tables (`users`, `gameplay_records`).
-    - Update `db_connexion.php` with your database credentials if necessary.
+    - Copy `.env.exemple` to `.env` and update it with your database credentials if necessary.
 3.  **Run the Server**:
     - Build a local PHP server (e.g., using XAMPP, WAMP, or built-in PHP server).
     - If using the built-in PHP server, run:
